@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>CheckPassportStatus</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">checkByIDCard</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dmsu.gov.ua/services/docstate.html<datalist><option>https://dmsu.gov.ua/</option><option>https://dmsu.gov.ua/services/docstate.html</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body[@id='page-start']/main/section[2]/article/form/div/div[2]/div/div/a/img<datalist><option>//body[@id='page-start']/main/section[2]/article/form/div/div[2]/div/div/a/img</option><option>//div[2]/div/div/a/img</option><option>css=a.passport-choise &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body[@id='page-start']/main/section[2]/article/form/div[2]/div[2]/label/div/ins<datalist><option>//body[@id='page-start']/main/section[2]/article/form/div[2]/div[2]/label/div/ins</option><option>//ins</option><option>css=ins.iCheck-helper</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[3]/label[2]/div/ins<datalist><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[3]/label[2]/div/ins</option><option>//div[4]/div[3]/label[2]/div/ins</option><option>css=div.iradio_square-orange.hover &gt; ins.iCheck-helper</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=number9<datalist><option>name=number9</option><option>//input[@name='number9']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div[2]/div/input</option><option>//div[4]/div[4]/div[2]/div/input</option><option>css=input[name="number9"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=number9<datalist><option>name=number9</option><option>//input[@name='number9']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div[2]/div/input</option><option>//div[4]/div[4]/div[2]/div/input</option><option>css=input[name="number9"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=number9<datalist><option>name=number9</option><option>//input[@name='number9']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div[2]/div/input</option><option>//div[4]/div[4]/div[2]/div/input</option><option>css=input[name="number9"]</option></datalist></td><td>123456789</td>
+</tr>
+<tr><td>selectFrame</td><td>index=0<datalist><option>index=0</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//span[@id='recaptcha-anchor']/div[5]<datalist><option>//span[@id='recaptcha-anchor']/div[5]</option><option>//div[5]</option><option>css=div.recaptcha-checkbox-checkmark</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">checkPassortsForKids</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dmsu.gov.ua/services/docstate.html<datalist><option>https://dmsu.gov.ua/services/docstate.html</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body[@id='page-start']/main/section[2]/article/form/div/div[2]/div/div/a/img<datalist><option>//body[@id='page-start']/main/section[2]/article/form/div/div[2]/div/div/a/img</option><option>//div[2]/div/div/a/img</option><option>css=a.passport-choise.checked-passport &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body[@id='page-start']/main/section[2]/article/form/div[2]/div[2]/label[2]/div/ins<datalist><option>//body[@id='page-start']/main/section[2]/article/form/div[2]/div[2]/label[2]/div/ins</option><option>//label[2]/div/ins</option><option>css=div.iradio_square-orange.hover &gt; ins.iCheck-helper</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[3]/label[2]/div/ins<datalist><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[3]/label[2]/div/ins</option><option>//div[4]/div[3]/label[2]/div/ins</option><option>css=div.iradio_square-orange.hover &gt; ins.iCheck-helper</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=number9<datalist><option>name=number9</option><option>//input[@name='number9']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div[2]/div/input</option><option>//div[4]/div[4]/div[2]/div/input</option><option>css=input[name="number9"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=number9<datalist><option>name=number9</option><option>//input[@name='number9']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div[2]/div/input</option><option>//div[4]/div[4]/div[2]/div/input</option><option>css=input[name="number9"]</option></datalist></td><td>123456789</td>
+</tr>
+<tr><td>selectFrame</td><td>index=0<datalist><option>index=0</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//span[@id='recaptcha-anchor']/div[5]<datalist><option>//span[@id='recaptcha-anchor']/div[5]</option><option>//div[5]</option><option>css=div.recaptcha-checkbox-checkmark</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">checkByOldPassportNumber</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://dmsu.gov.ua/services/docstate.html<datalist><option>https://dmsu.gov.ua/services/docstate.html</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body[@id='page-start']/main/section[2]/article/form/div/div[2]/div/div/a/p<datalist><option>//body[@id='page-start']/main/section[2]/article/form/div/div[2]/div/div/a/p</option><option>//a/p</option><option>css=p.gray-block</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body[@id='page-start']/main/section[2]/article/form/div[2]/div[2]/label/div/ins<datalist><option>//body[@id='page-start']/main/section[2]/article/form/div[2]/div[2]/label/div/ins</option><option>//ins</option><option>css=ins.iCheck-helper</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[3]/label/div/ins<datalist><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[3]/label/div/ins</option><option>//div[4]/div[3]/label/div/ins</option><option>css=div.iradio_square-orange.hover &gt; ins.iCheck-helper</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=set<datalist><option>name=set</option><option>//input[@name='set']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div/div/input</option><option>//div[4]/div[4]/div/div/input</option><option>css=input[name="set"]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=set<datalist><option>name=set</option><option>//input[@name='set']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div/div/input</option><option>//div[4]/div[4]/div/div/input</option><option>css=input[name="set"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=set<datalist><option>name=set</option><option>//input[@name='set']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div/div/input</option><option>//div[4]/div[4]/div/div/input</option><option>css=input[name="set"]</option></datalist></td><td>AA</td>
+</tr>
+<tr><td>click</td><td>name=number<datalist><option>name=number</option><option>//input[@name='number']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div/div[2]/input</option><option>//div[4]/div[4]/div/div[2]/input</option><option>css=input[name="number"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=number<datalist><option>name=number</option><option>//input[@name='number']</option><option>//body[@id='page-start']/main/section[2]/article/form/div[4]/div[4]/div/div[2]/input</option><option>//div[4]/div[4]/div/div[2]/input</option><option>css=input[name="number"]</option></datalist></td><td>123456</td>
+</tr>
+<tr><td>selectFrame</td><td>index=0<datalist><option>index=0</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//span[@id='recaptcha-anchor']/div[5]<datalist><option>//span[@id='recaptcha-anchor']/div[5]</option><option>//div[5]</option><option>css=div.recaptcha-checkbox-checkmark</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
